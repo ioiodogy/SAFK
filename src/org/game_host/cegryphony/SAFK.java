@@ -37,7 +37,7 @@ public class SAFK extends JavaPlugin {
                 this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".location.X", loc.getBlockX()+.5);
                 this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".location.Y", loc.getBlockY());
                 this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".location.Z", loc.getBlockZ()+.5);
-                this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".world", player.getWorld().toString().toLowerCase());
+                this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".location.world", player.getWorld().toString().toLowerCase().substring(player.getWorld().toString().toLowerCase().indexOf("=")+1,player.getWorld().toString().length()-1));
                 this.getConfig().set("pinfo."+player.getPlayerListName().toLowerCase()+".inshelter", true);
                 this.saveConfig();
             }
