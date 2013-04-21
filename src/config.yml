@@ -1,6 +1,8 @@
 config:
   location:
-    X: 208
+    X: 208.5
     Y: 64
-    Z: 151
-  text: You are ugly!
+    Z: 151.5
+  text: You have been teleported to the AFK shelter!
+  
+
