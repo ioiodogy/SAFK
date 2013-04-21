@@ -6,3 +6,8 @@ commands:
         description: Teleports you to the AFK shelter.
         usage: /<command>
         permissions: SAFK.afk
+    setafk:
+        description: Sets the AFK shelter.
+        usage: /<command>
+        permissions: SAFK.setafk
+        
