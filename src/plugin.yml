@@ -1,0 +1,8 @@
+name: SAFK
+main: org.game_host.cegryphony.SAFK
+version: 0.1
+commands:
+    afk:
+        description: Teleports you to the AFK shelter.
+        usage: /<command>
+        permissions: SAFK.afk
